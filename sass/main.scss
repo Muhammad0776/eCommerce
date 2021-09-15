@@ -59,10 +59,126 @@ header {
       padding-bottom: 10px;
     }
     .right {
-      // background-image: url(/Images/back.png) !important;
-      background-image: url(/Images/featured.png) !important;
+      background-image: url(/Images/back.png) !important;
       background-size: cover !important;
-      background-position: top bottom;
+      background-position: 50% 50%;
+
+      .cards {
+        border-radius: 20px;
+        width: 560px;
+        height: 275px;
+        position: absolute;
+        top: 230px;
+        right: -10px;
+        background-color: #fff;
+
+        .imageS {
+          position: absolute;
+          top: -65px;
+          left: -95px;
+          width: 225.4px;
+          height: 156.07px;
+          border-radius: 20px;
+          z-index: 999;
+        }
+
+        .plus-minus {
+          background: #f6f6f6;
+          border-radius: 4.99174px;
+          width: 125.28px;
+          height: 40.98px;
+        }
+
+        .toggle {
+          position: absolute;
+          top: 215px;
+          left: 48px;
+          background-color: #fbfcff;
+          z-index: 9999;
+          width: 280px;
+          height: 184px;
+          border-radius: 20px;
+
+          .bankTitle {
+            margin-left: 22px;
+          }
+
+          .width {
+            width: 94px;
+            height: 55px;
+          }
+
+          .form-check-input {
+            margin-left: -1rem;
+          }
+
+          .form-check {
+            padding-left: 1rem;
+          }
+
+          small {
+            font-size: 12px;
+          }
+        }
+
+        .pos {
+          position: relative;
+
+          .sale {
+            position: absolute;
+            top: -12px;
+            left: 150px;
+            width: 97.14px;
+            height: 34.54px;
+            color: #fff;
+            background-color: #70c217;
+            border-radius: 37.7902px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .cart {
+            position: absolute;
+            top: 210px;
+            left: -18px;
+            width: 45.64px;
+            height: 45.64px;
+            background: #ffba49;
+            border-radius: 37.7902px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+
+        .add {
+          background: #7854f7;
+          border-radius: 4.99174px;
+          width: 268.12px;
+          height: 49.18px;
+          margin-top: 8px;
+          margin-bottom: 15px;
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+
+        .bull {
+          width: 25px;
+          height: 25px;
+          font-size: 11px;
+          margin-right: 15px;
+          margin-bottom: 15px;
+          background-color: #f6f6f6;
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
     }
   }
 }
@@ -145,7 +261,7 @@ section {
 
   .absol {
     position: absolute;
-    top: 1760px;
+    top: 1850px;
     left: 360px;
   }
 }
@@ -190,6 +306,8 @@ section {
 
 .bgColor {
   background-color: #5f37ef;
+  position: sticky;
+  top: 0;
 
   .secBtn {
     border-radius: 60px;
