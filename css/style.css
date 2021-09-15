@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+html {
+  overflow-x: hidden;
+}
+
+header {
+  background: linear-gradient(180deg, #e5efff 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+}
+header nav {
+  background-color: #e6efff;
+}
+header nav a {
+  text-decoration: none;
+  color: #111;
+}
+header nav li a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #272d4e;
+}
+header .container {
+  padding-top: 110px !important;
+}
+header .container h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 58px;
+  color: #272d4e;
+}
+header .container p {
+  padding-top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #94a2b3;
+}
+header .container a {
+  text-decoration: none;
+}
+header .container .but1 {
+  background: #7854f7;
+  border-radius: 60px;
+  color: #e6efff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header .container .right {
+  background-image: url(/Images/featured.png) !important;
+  background-size: cover !important;
+  background-position: top bottom;
+}
+
+section .container {
+  text-align: center;
+  padding-top: 100px;
+}
+section .container h1 {
+  margin-bottom: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 70px;
+  text-align: center;
+  color: #272d4e;
+}
+section .container h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  color: #272d4e;
+  margin-bottom: none;
+}
+section .container p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #94a2b3;
+}
+section .container a {
+  text-decoration: none;
+}
+section .container img {
+  width: 330px;
+  height: 231px;
+}
+section .imgStyle {
+  height: 300px !important;
+  margin-top: 40px;
+}
+
+.bg-img {
+  background-image: url(/Images/section.png);
+  background-size: cover;
+  background-position: left top bottom;
+  padding-bottom: 70vh;
+}
+.bg-img .but2 {
+  background-color: #70c217;
+  color: #fff;
+  border-radius: 25px;
+  border-radius: 25px;
+}
+.bg-img .div {
+  padding-left: 140px;
+}
+.bg-img .row .images {
+  border-radius: 15px;
+  box-shadow: -25px 20px #563bb936;
+  backdrop-filter: blur(40%) !important;
+  max-width: 300px;
+}
+.bg-img .pad-right {
+  padding-right: 300px;
+}
+.bg-img .absol {
+  position: absolute;
+  top: 1760px;
+  left: 360px;
+}
+
+.bg-rasm {
+  background-image: url(/Images/img01.png);
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 20vh;
+}
+.bg-rasm .swiper {
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.bg-rasm .swiper-wrapper {
+  box-shadow: 0px 18px 52.8px 0px #d7e4f97e;
+}
+.bg-rasm .swiper-slide {
+  position: relative;
+  width: 550px !important;
+  background-color: #fff !important;
+}
+.bg-rasm .swiper-slide .belgi {
+  width: 184px;
+  height: 131.44px;
+  margin-bottom: 120px;
+  margin-left: 45px;
+}
+.bg-rasm .swiper-slide .zIndex {
+  position: absolute;
+}
+
+.members {
+  background-image: url(/Images/peoples.png);
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 45vh;
+}
+
+.bgColor {
+  background-color: #5f37ef;
+}
+.bgColor .secBtn {
+  border-radius: 60px;
+  border: 2px solid #fff;
+  margin-left: 75px;
+  color: #fff;
+}
+.bgColor h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffffff;
+}
+.bgColor span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+}
+
+footer {
+  background-color: #7854f7;
+}
+footer a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #111;
+}
+footer p {
+  color: #fff;
+}
+footer .bot {
+  margin-bottom: 120px;
+}
+footer ul li {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=style.css.map */
